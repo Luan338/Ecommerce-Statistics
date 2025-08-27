@@ -34,10 +34,62 @@ O projeto utiliza o arquivo `ecommerce_estatistica.csv`.
 
 ---
 
-### 🚀 Como Executar o Projeto
+# Dashboard de Análise de E-commerce (EBAC)
 
-1.  Certifique-se de que as bibliotecas `pandas`, `matplotlib` e `seaborn` estão instaladas em seu ambiente Python.
-2.  Execute o script Python que contém o código de análise.
-3.  Os gráficos serão gerados e exibidos, fornecendo uma visão completa dos dados.
+Uma análise detalhada dos dados de vendas para descobrir insights valiosos.
 
-Este README serve como um guia para entender a metodologia e os objetivos da análise. Sinta-se à vontade para explorar e adaptar o código para suas próprias necessidades.
+---
+
+## Gráfico 1: Distribuição de Notas dos Produtos
+
+![Gráfico de Distribuição de Notas dos Produtos](img/Dist_Notas_Produtos.png)
+
+**NOTAS:** O gráfico mostra que a maioria dos produtos é avaliada com notas altas, indicando a satisfação geral dos clientes com a qualidade dos itens em nossa loja.
+
+---
+
+## Gráfico 2: Top 10 Marcas Mais Vendidas
+
+![Gráfico Top 10 Marcas Mais Vendidas](img/TOP10.png)
+
+**NOTAS:** Este gráfico de barras destaca as 10 marcas com o maior volume de vendas, oferecendo uma visão clara de nossa liderança de mercado e das marcas mais populares.
+
+---
+
+## Gráfico 3: Relação entre Preço, Quantidade Vendida e Nota
+
+![Gráfico de Dispersão de Preço x Quantidade Vendida](img/relations.png)
+
+**NOTAS:** A análise revela que os maiores volumes de vendas se concentram nas faixas de preço entre 50-100 e 125-180, sugerindo que esses são os pontos de preço ideais para o nosso público.
+
+---
+
+## Gráfico 4: Matriz de Correlação
+
+![Mapa de Calor da Matriz de Correlação](img/MatrixCorrelacao.png)
+
+**NOTAS:** Este mapa de calor confirma uma forte correlação positiva entre a quantidade vendida e o número de avaliações, indicando que produtos com mais feedback dos clientes tendem a ter maior sucesso de vendas.
+
+---
+
+## Gráfico 5: Distribuição de Produtos por Gênero
+
+![Gráfico de Pizza da Distribuição por Gênero](img/Dist_Produtos.png)
+
+**NOTAS:** O gráfico de pizza ilustra a distribuição de nossos produtos, destacando a predominância de categorias de produtos para os gêneros Feminino e Masculino em nossa loja.
+
+---
+
+## Gráfico 6: Regressão: Nota x Quantidade Vendida
+
+![Gráfico de Regressão de Nota x Vendas](img/Regressao.png)
+
+**NOTAS:** O gráfico de regressão normalizado mostra a relação entre a nota de um produto e a quantidade vendida. A inclinação positiva na linha de tendência sugere que a qualidade percebida pelo cliente é um fator-chave para o volume de vendas.
+
+---
+
+## Gráfico 7: Distribuição de Densidade dos Preços
+
+![Gráfico de Densidade dos Preços](img/dist_densidade.png)
+
+**NOTAS:** Este gráfico de densidade oferece uma visualização clara dos preços de nossos produtos. A área mais concentrada na curva indica a faixa de preço onde a maioria de nossos produtos está posicionada.
